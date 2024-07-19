@@ -1,0 +1,120 @@
+/*div
+{
+	background: purple;
+	color: white;
+}*/
+a:hover:visited:active
+{
+	background:purple;
+	color:white;
+}
+body
+{
+	/*background-image:url(Samantha.jpg);*/
+	background-image:radial-gradient(blue,turquoise,green,white);
+}
+.quote /*  .-for classes and #-for id's*/
+{
+	font-family: "verdana", "gill sans";
+	color:white;
+	background:blue;
+}
+form
+{
+	background: turquoise;
+	border: 5px solid blue;
+	padding:15px 15px 15px 20px;
+	margin:10px auto;
+	border-radius:5px;
+	overflow:scroll;
+	white-space:pre-wrap; 
+	/*animation-name:animation;
+	animation-delay:2s;
+	animation-iteration-count:100;
+	position:relative;*/
+	
+}
+@keyframes animation
+{
+	/*0%{background-color:blue;left:0px;top:0px}
+	25%{background-color:turquoise;left:300px;top:0px}
+	50%{background-color:purple;left:300px;top:300px}
+	75%{background-color:white;left:0px;top:300px}
+	100%{background-color:gold;left:0px;top:0px}*/
+}
+#services
+{
+	margin:auto;
+	background:pink;
+	width:50%;
+	text-align:left;
+}
+#email
+{
+	margin:auto;
+	background:red;
+	width:50%;
+	text-align:left;
+}
+#contact
+{
+	margin:auto;
+	background:green;
+	width:50%;
+	text-align:left;
+}
+ol li
+{
+	background:yellow;
+	font-style:italic;
+}
+ul li
+{
+	background:yellow;
+}
+h2 + p
+{
+	background:turquoise;
+}
+p[class]:first-letter
+{
+	background:turquoise;
+	font-size:50px;
+}
+h1:first-letter
+{
+	font-size:50px;
+}
+h1:hover
+{
+	background:purple;
+	color:white;
+	transform:scale(2);
+	/*transform:skew(20deg,10deg);*/
+	transform:translate(20px,20px);
+	
+}
+footer
+{
+	clear:both;
+	background:silver;
+	color:white;
+	margin:100px auto;
+}
+/*3 types of positioning
+absolute positioning means moving the document itself.
+position:absolute;
+width:200px;
+height:200px;
+bottom:0px;
+right:0px;
+z-index:5px;
+
+fixed positioning- doesn't move even if you scroll up n down
+position:fixed;
+
+Relative positioning-
+position:relative;
+ 
+example = image- float:right
+*/
